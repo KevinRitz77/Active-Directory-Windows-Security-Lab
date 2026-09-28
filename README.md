@@ -146,30 +146,62 @@ The following screenshots document the implementation and validation of the lab.
 
 ### Active Directory & Domain Configuration
 
-- Server initial configuration
-- Active Directory Domain Services installation
-- Domain controller promotion
-- Domain configuration and verification
-- DNS resolution
+#### Server Initial Configuration
+![Server Initial Configuration](screenshots/01-server-initial-configuration.png)
+
+#### Static IP Configuration
+![Static IP Configuration](screenshots/02-static-ip-configuration.png)
+
+#### Active Directory Domain Services Installation
+![Active Directory Domain Services Installation](screenshots/03-active-directory-installed.png)
+
+#### Domain Controller Configuration
+![Domain Controller Configuration](screenshots/04-ad-domain-configuration.png)
+
+#### AD Prerequisites Passed
+![AD Prerequisites Passed](screenshots/05-ad-prerequisites-passed.png)
+
+#### Domain Controller Verification
+![Domain Controller Verification](screenshots/06-domain-controller-verified.png)
+
+#### DNS Resolution
+![DNS Resolution](screenshots/07-dns-resolution-test.png)
 
 ### Active Directory Structure
 
-- Organizational units
-- Test users
-- Security groups
-- Group memberships
+#### Organizational Units
+![Organizational Units](screenshots/08-custom-ad-ou-structure.png)
+
+#### Test Users
+![Test Users](screenshots/09-ad-test-users.png)
+
+#### Security Groups
+![Security Groups](screenshots/10-ad-security-groups.png)
+
+#### Group Memberships
+![Group Memberships](screenshots/11-ad-group-memberships.png)
 
 ### Security Configuration
 
-- Password policy
-- Security baseline GPO
-- GPO application verification
-- Domain security policy verification
+#### Password Policy
+![Password Policy](screenshots/12-password-policy.png)
+
+#### Security Baseline GPO
+![Security Baseline GPO](screenshots/13-security-baseline-gpo-linked.png)
+
+#### GPO Application Verification
+![GPO Application Verification](screenshots/14-gpo-application-verified.png)
+
+#### Domain Security Policy Verification
+![Domain Security Policy Verification](screenshots/15-domain-security-policy-verified.png)
 
 ### Client & Security Validation
 
-- RSoP password policy verification
-- Failed authentication Event ID 4625
+#### Domain-Joined Client
+![Domain-Joined Client](screenshots/16-client-domain-joined.png)
+
+#### Failed Authentication — Event ID 4625
+![Failed Authentication Event 4625](screenshots/17-failed-logon-event-4625.png)
 
 ## Challenges & Troubleshooting
 
